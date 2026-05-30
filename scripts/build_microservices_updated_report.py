@@ -66,10 +66,7 @@ def configure(doc: Document) -> None:
         style.paragraph_format.space_before = Pt(before)
         style.paragraph_format.space_after = Pt(after)
 
-    footer = section.footer.paragraphs[0]
-    footer.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    run = footer.add_run("RSM | Informe actualizado")
-    set_run(run, size=9, color=MUTED)
+    section.footer.paragraphs[0].text = ""
 
 
 def shade(cell, fill: str) -> None:
