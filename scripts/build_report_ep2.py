@@ -379,7 +379,7 @@ def build_docx() -> Path:
     doc.add_heading("Instrucciones de ejecución", level=2)
     add_bullet(doc, "Abrir rsm-agente-ep2.code-workspace en Visual Studio Code.")
     add_bullet(doc, "Ejecutar las tareas: Instalar dependencias, Inicializar base de datos y Ejecutar API.")
-    add_bullet(doc, "Probar la interfaz en http://127.0.0.1:8000 y la documentación en /docs.")
+    add_bullet(doc, "Probar la interfaz en http://127.0.0.1:8000 o en http://<IP_DEL_EQUIPO>:8000 y la documentación en /docs.")
 
     add_page_break(doc)
     doc.add_heading("5. Cierre y referencias", level=1)

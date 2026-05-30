@@ -27,7 +27,7 @@ Agente local para gestión de inventario mecánico, construido con FastAPI, Lang
 3. Ejecuta `Instalar dependencias`.
 4. Ejecuta `Inicializar base de datos`.
 5. Ejecuta `Ejecutar API`.
-6. Navega a `http://127.0.0.1:8000`.
+7. Navega a `http://127.0.0.1:8000` o, desde otro equipo en la misma red, a `http://<IP_DEL_EQUIPO>:8000`.
 
 También puedes usar el workspace `rsm-agente-ep2.code-workspace` si prefieres abrir todo el proyecto con la configuración de VS Code.
 
@@ -37,7 +37,7 @@ También puedes usar el workspace `rsm-agente-ep2.code-workspace` si prefieres a
 py -3 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe scripts\init_db.py
-.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## Endpoints principales
