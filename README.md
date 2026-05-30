@@ -102,22 +102,6 @@ flowchart TD
     A --> R["Respuesta con plan, herramientas y evidencia"]
     R --> API
     API --> U
-```
-
-## Alineacion con EP2
-
-| Indicador | Evidencia en el proyecto |
-|---|---|
-| IE1 Herramientas autonomas | `app/tools.py` define herramientas de consulta, escritura y razonamiento. |
-| IE2 Framework de agentes | Uso de `langchain-core` con `StructuredTool`. |
-| IE3 Memoria de contenido | Tabla `memory` en SQLite y memoria corta por sesion. |
-| IE4 Recuperacion de contexto | `app/retriever.py` recupera inventario, reglas y memoria relevante. |
-| IE5 Planificacion | `app/planner.py` secuencia acciones por intencion. |
-| IE6 Decisiones adaptativas | Bloquea salidas sin OT/mecanico/vehiculo y rechaza stock insuficiente. |
-| IE7 README y diagrama | Este README y `docs/diagrama_orquestacion.mmd`. |
-| IE8 Justificacion de componentes | Informe EP2 y seccion de arquitectura. |
-| IE9 Informe tecnico | Documento entregable generado en `docs/`. |
-| IE10 Lenguaje tecnico | README, tests e informe con evidencia concreta. |
 
 ## Referencias
 
