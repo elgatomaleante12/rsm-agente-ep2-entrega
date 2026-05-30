@@ -92,21 +92,6 @@ Ejemplos de mensajes válidos:
 - `app/retriever.py` recupera contexto relevante desde inventario, conocimiento y memoria.
 - `app/database.py` inicializa SQLite, carga datos y registra movimientos.
 
-## Cómo evalúa EP2
-
-El proyecto está alineado con los criterios de EP2:
-
-- Agente con herramientas autónomas y razonamiento local.
-- Uso de memoria de corto y largo plazo.
-- Recuperación de contexto desde datos internos.
-- Planificación adaptativa según la intención del usuario.
-- Evidencia en README, tests y documentación.
-
-## Notas adicionales
-
-- Los reportes de alertas se generan en `outputs/`.
-- La base de datos SQLite se inicializa desde `data/inventory.csv` y `data/knowledge_base.json`.
-- Si modifica datos, vuelve a ejecutar `scripts/init_db.py` para reiniciar la base de datos.
 
 ## Referencias
 
