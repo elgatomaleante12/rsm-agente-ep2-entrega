@@ -65,11 +65,6 @@ Que items estan criticos o bajo minimo?
 Registra salida de 2 unidades FO-TOY-001 para OT-778 con mecanico Ana y vehiculo Toyota Yaris 2020
 Recomienda que debo reponer hoy
 Genera un reporte de alertas de stock
-```
-
-## Arquitectura
-
-El diagrama Mermaid esta en `docs/diagrama_orquestacion.mmd`.
 
 ```mermaid
 flowchart TD
