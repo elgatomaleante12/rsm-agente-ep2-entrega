@@ -1,51 +1,58 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>RSM Agente EP2</title>
-    <link rel="stylesheet" href="/static/styles.css" />
-  </head>
-  <body>
-    <main class="shell">
-      <section class="workspace" aria-label="Agente RSM">
-        <header class="topbar">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RSM Agente EP2</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+
+<body>
+  <main class="shell">
+    <section class="workspace" aria-label="Agente RSM">
+      <header class="topbar">
+        <div class="brand">
+          <img class="hero-image" src="/static/workshop.svg" alt="Taller mecánico" />
           <div>
             <h1>RSM Inventario IA</h1>
-            <p>Agente funcional con consulta, escritura, razonamiento, memoria y planificacion.</p>
+            <p>Agente funcional con consulta, escritura, razonamiento, memoria y planificación.</p>
           </div>
-          <span id="status" class="status">Conectando</span>
-        </header>
+        </div>
+        <span id="status" class="status">Conectando</span>
+      </header>
 
-        <section class="quick-actions" aria-label="Consultas rapidas">
-          <button data-message="Cuantos filtros de aceite Toyota quedan?">Consultar stock</button>
-          <button data-message="Que items estan criticos o bajo minimo?">Ver alertas</button>
-          <button data-message="Recomienda que debo reponer hoy">Reponer</button>
-          <button data-message="Genera un reporte de alertas de stock">Reporte</button>
-        </section>
-
-        <section id="messages" class="messages" aria-live="polite"></section>
-
-        <form id="chat-form" class="composer">
-          <input
-            id="message"
-            name="message"
-            autocomplete="off"
-            placeholder="Ej: Registra salida de 2 unidades FO-TOY-001 para OT-778 con mecanico Ana y vehiculo Toyota Yaris"
-          />
-          <button type="submit">Enviar</button>
-        </form>
+      <section class="quick-actions" aria-label="Consultas rapidas">
+        <button data-message="Cuantos filtros de aceite Toyota quedan?">Consultar stock</button>
+        <button data-message="Que items estan criticos o bajo minimo?">Ver alertas</button>
+        <button data-message="Recomienda que debo reponer hoy">Reponer</button>
+        <button data-message="Genera un reporte de alertas de stock">Reporte</button>
       </section>
 
-      <aside class="sidepanel">
-        <h2>Plan del agente</h2>
-        <ol id="plan"></ol>
-        <h2>Herramientas usadas</h2>
-        <ul id="tools"></ul>
-        <h2>Memoria reciente</h2>
-        <ul id="memory"></ul>
-      </aside>
-    </main>
-    <script src="/static/app.js"></script>
-  </body>
+      <section class="hero-copy">
+        <p>Haz consultas de inventario, registra salidas con OT y mecanico, y obtén recomendaciones de reposición en una
+          vista clara y rápida.</p>
+      </section>
+
+      <section id="messages" class="messages" aria-live="polite"></section>
+
+      <form id="chat-form" class="composer">
+        <input id="message" name="message" autocomplete="off"
+          placeholder="Ej: Registra salida de 2 unidades FO-TOY-001 para OT-778 con mecanico Ana y vehiculo Toyota Yaris" />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <aside class="sidepanel">
+      <h2>Plan del agente</h2>
+      <ol id="plan"></ol>
+      <h2>Herramientas usadas</h2>
+      <ul id="tools"></ul>
+      <h2>Memoria reciente</h2>
+      <ul id="memory"></ul>
+    </aside>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+
 </html>
