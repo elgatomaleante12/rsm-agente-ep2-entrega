@@ -16,7 +16,7 @@ OUT_DOCX = DOCS_DIR / "RSM_Taller_final_10_microservicios_actualizado_informe.do
 MICRO_IMG = DOCS_DIR / "mapa_microservicios_actualizado.png"
 AGENT_IMG = DOCS_DIR / "diagrama_orquestacion.png"
 
-GITHUB_REPO = "https://github.com/joaquin-alvarado/rsm-agente-ep2"
+GITHUB_REPO = "https://github.com/elgatomaleante12/rsm-agente-ep2-entrega"
 
 BLUE = RGBColor(32, 103, 168)
 DARK = RGBColor(20, 28, 38)

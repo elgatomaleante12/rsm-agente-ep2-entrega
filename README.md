@@ -2,6 +2,8 @@
 
 Proyecto funcional para la Evaluacion Parcial 2 de ISY0101. Implementa un agente local para gestion de inventario mecanico con herramientas de consulta, escritura y razonamiento, memoria de corto/largo plazo, recuperacion de contexto y planificacion adaptativa.
 
+Repositorio GitHub: https://github.com/elgatomaleante12/rsm-agente-ep2-entrega
+
 ## Que incluye
 
 - API FastAPI con interfaz web en `http://127.0.0.1:8000`.
