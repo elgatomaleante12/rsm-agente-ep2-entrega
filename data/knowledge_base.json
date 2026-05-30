@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Regla de alerta de stock",
+    "source": "Politica interna RSM 2026",
+    "content": "Un item se considera CRITICO cuando su stock es 0. Se considera BAJO cuando el stock actual es mayor que 0 y menor o igual al stock minimo definido. Los items criticos deben priorizarse antes que los bajos."
+  },
+  {
+    "title": "Regla de trazabilidad de salidas",
+    "source": "Procedimiento bodega RSM 2026",
+    "content": "Toda salida de repuesto debe registrar orden de trabajo, mecanico responsable, vehiculo y cantidad. Si faltan esos datos, el agente debe solicitar aclaracion antes de descontar stock."
+  },
+  {
+    "title": "Regla de continuidad operacional",
+    "source": "Plan operativo RSM 2026",
+    "content": "Si una salida deja un item bajo minimo, el agente debe registrar el movimiento, advertir el riesgo operacional y recomendar reposicion al proveedor con menor tiempo de entrega."
+  },
+  {
+    "title": "Criterio de privacidad",
+    "source": "Restricciones del caso EP1",
+    "content": "Los datos de clientes, ordenes de trabajo e inventario se mantienen localmente. El MVP usa SQLite y recuperacion local para operar sin depender de APIs pagadas."
+  }
+]

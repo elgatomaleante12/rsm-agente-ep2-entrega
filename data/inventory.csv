@@ -1,0 +1,11 @@
+ref,name,category,stock,min_stock,location,provider,lead_time_days,compatible_models,last_update,unit_price
+FO-TOY-001,Filtro de Aceite Toyota,Motor,8,4,Estante B3,AutoParts Chile,2,"Toyota Yaris; Toyota Corolla; Toyota Hilux",2026-05-20,6990
+FA-UNI-002,Filtro de Aire Universal,Motor,1,5,Estante B2,AutoParts Chile,2,"Toyota; Nissan; Chevrolet; Hyundai",2026-05-20,5490
+AC-5W30-1L,Aceite 5W30 Sintetico 1L,Lubricantes,3,10,Estante C1,Lubrimax,1,"Vehiculos gasolina y diesel livianos",2026-05-18,8990
+PAST-BREMBO-1234,Pastillas de Freno Brembo BP-1234,Frenos,12,6,Estante A2,Frenos del Sur,3,"Delanteras universales; Toyota; Nissan",2026-05-19,32990
+PAST-FERODO-890,Pastillas de Freno Ferodo FDB-890,Frenos,6,6,Estante A3,Frenos del Sur,4,"Traseras Toyota; Nissan",2026-05-17,28990
+BUJ-NGK-44,Bujia NGK Iridium 44,Encendido,24,12,Estante D1,Repuestos Norte,5,"Toyota; Kia; Hyundai; Chevrolet",2026-05-16,7990
+BAT-60AH-STD,Bateria 60Ah Estandar,Electrico,2,3,Zona Baterias,ElectroAuto,2,"Vehiculos livianos 12V",2026-05-15,82990
+COR-ALT-HILUX,Correa Alternador Toyota Hilux,Motor,0,2,Estante E4,AutoParts Chile,2,"Toyota Hilux 2016-2024",2026-05-14,18990
+LAMP-H7-55W,Ampolleta H7 55W,Electrico,18,8,Estante D3,ElectroAuto,1,"Faros H7",2026-05-13,3990
+KIT-DIST-N16,Kit Distribucion Nissan N16,Motor,2,2,Estante E1,Repuestos Norte,6,"Nissan N16",2026-05-12,119990
