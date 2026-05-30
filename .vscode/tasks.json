@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Crear entorno virtual",
+      "type": "shell",
+      "command": "py -3 -m venv .venv",
+      "problemMatcher": []
+    },
+    {
+      "label": "Instalar dependencias",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe -m pip install -r requirements.txt",
+      "dependsOn": "Crear entorno virtual",
+      "problemMatcher": []
+    },
+    {
+      "label": "Inicializar base de datos",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe scripts\\init_db.py",
+      "dependsOn": "Instalar dependencias",
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar API",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+      "dependsOn": "Inicializar base de datos",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Ejecutar pruebas",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe -m pytest -q",
+      "dependsOn": "Instalar dependencias",
+      "problemMatcher": []
+    },
+    {
+      "label": "Demo CLI",
+      "type": "shell",
+      "command": ".\\.venv\\Scripts\\python.exe scripts\\demo.py",
+      "dependsOn": "Inicializar base de datos",
+      "problemMatcher": []
+    }
+  ]
+}
