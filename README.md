@@ -16,6 +16,8 @@ Proyecto funcional para la Evaluacion Parcial 2 de ISY0101. Implementa un agente
 
 - Informe Word: `docs/Informe_EP2_RSM_Agente_Funcional.docx`
 - Informe PDF: `docs/Informe_EP2_RSM_Agente_Funcional.pdf`
+- Informe actualizado microservicios + agente Word: `docs/RSM_Taller_final_10_microservicios_actualizado_informe.docx`
+- Informe actualizado microservicios + agente PDF: `docs/RSM_Taller_final_10_microservicios_actualizado_informe.pdf`
 - Diagrama de orquestacion: `docs/diagrama_orquestacion.mmd`
 - Resumen de cambios: `docs/CAMBIOS_EP2.md`
 
