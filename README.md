@@ -14,15 +14,6 @@ Repositorio GitHub: https://github.com/elgatomaleante12/rsm-agente-ep2-entrega
 - Tests unitarios y de API para evidenciar funcionamiento.
 - Configuracion lista para Visual Studio Code.
 
-## Documentos finales
-
-- Informe Word: `docs/Informe_EP2_RSM_Agente_Funcional.docx`
-- Informe PDF: `docs/Informe_EP2_RSM_Agente_Funcional.pdf`
-- Informe actualizado microservicios + agente Word: `docs/RSM_Taller_final_10_microservicios_actualizado_informe.docx`
-- Informe actualizado microservicios + agente PDF: `docs/RSM_Taller_final_10_microservicios_actualizado_informe.pdf`
-- Diagrama de orquestacion: `docs/diagrama_orquestacion.mmd`
-- Resumen de cambios: `docs/CAMBIOS_EP2.md`
-
 ## Ejecucion en Visual Studio Code
 
 1. Abre la carpeta `rsm-agente-ep2` en Visual Studio Code o abre `rsm-agente-ep2.code-workspace`.
